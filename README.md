@@ -18,8 +18,8 @@ npm install
 ```
 babel-node run.js c:/project/branch 820
 ```
-** c:/project/branch ** 为项目地址，会根据项目目前Brunch来查找commit
-** 820 ** 为trace bug id
+**c:/project/branch** 为项目地址，会根据项目目前Brunch来查找commit
+**820** 为trace bug id
 
 ## Purpose
 Used to extract the modified files which are search by specific search rules from specific branch.
@@ -41,6 +41,6 @@ npm install
 ```
 babel-node run.js c:/project/branch 820
 ```
-** c:/project/branch ** stands for the path of project, the branch which tool will use is determined by this path.
-** 820 ** stands for trace bug id
+**c:/project/branch** stands for the path of project, the branch which tool will use is determined by this path.
+**820** stands for trace bug id
 
