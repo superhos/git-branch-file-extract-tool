@@ -1,0 +1,20 @@
+{
+  "name": "mgh_dev_sync",
+  "version": "0.0.1",
+  "description": "Synchronization the source code to development environment according to issue number and branch name.",
+  "main": "run.js",
+  "scripts": {
+    "test": "babel-node run.js"
+  },
+  "author": "Steven Chan",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "simple-git": "^1.73.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1"
+  }
+}
